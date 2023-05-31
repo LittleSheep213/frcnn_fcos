@@ -33,7 +33,7 @@ tensorboard --logdir frcnn
 ```
 
 ### 测试frcnn
-下载训练好的权重，修改名称为frcnn-model.pth，并存放在save_weights/frcnn目录下
+下载训练好的权重，链接：https://pan.baidu.com/s/1ug1gu7eo-I8iZSPFUJzfSw 提取码：y15b ,修改名称为frcnn-model.pth，并存放在save_weights/frcnn目录下
 ```bash
 python predict_frcnn.py
 ```
@@ -53,7 +53,7 @@ tensorboard --logdir fcos
 ```
 
 ### 测试fcos
-下载训练好的权重，修改名称为fcos-model.pth，并存放在save_weights/fcos目录下
+下载训练好的权重，链接：https://pan.baidu.com/s/13zuw2Ak25v_tliDhvFQYWw 提取码：wrq1 ，修改名称为fcos-model.pth，并存放在save_weights/fcos目录下
 ```bash
 train predict_fcos.py
 ```
