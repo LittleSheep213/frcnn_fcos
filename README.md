@@ -5,7 +5,7 @@ pip install -r requirements.txt
 ```
 
 ### 准备数据集
-
+链接：https://pan.baidu.com/s/15KBnpV8CKt_XBl2rZ_X1DA 提取码：eq34，存放成如下的目录。
 ```
 ├──frcnn_fcos
   ├── VOCdevkit
@@ -33,6 +33,7 @@ tensorboard --logdir frcnn
 ```
 
 ### 测试frcnn
+下载训练好的权重，修改名称为frcnn-model.pth，并存放在save_weights/frcnn目录下
 ```bash
 python predict_frcnn.py
 ```
@@ -52,6 +53,7 @@ tensorboard --logdir fcos
 ```
 
 ### 测试fcos
+下载训练好的权重，修改名称为fcos-model.pth，并存放在save_weights/fcos目录下
 ```bash
 train predict_fcos.py
 ```
